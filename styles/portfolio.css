@@ -144,3 +144,25 @@ main section{
     font-weight: 400;
 
 }
+/* Resume Styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-description{
+
+    color: #757575;
+}
+.resume download-cv{
+    margin-top: 50px;
+}
