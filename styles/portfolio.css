@@ -10,6 +10,9 @@
 .dark-2{
     color: #474747;
 }
+.dark-1{
+    color: #181818;
+}
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -18,6 +21,34 @@
     border-radius: 5px;
 
 }
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px ;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-profile-picture{
+    width: 580px;
+}
+/* header Styles */
+
+.header{
+    background-image: url(../portfolio-resources/images/developer.png), url(../portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 
 /* Nav Styles */
 
